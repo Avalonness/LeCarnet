@@ -1,0 +1,112 @@
+/* ------------------------------
+        ANIMATION
+   ---------------------------- */
+
+
+/* ------------------------------
+        CSS GLOBAL
+   ---------------------------- */
+
+.last_games__container{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last_games__container h2 {
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+
+/* ------------------------
+        TABLE
+    ------------------------*/
+  section {
+    width: 100%;
+  }
+
+   .list_game {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(33, 47, 61, 1);
+    margin: auto;
+   }
+
+   .list_game li {
+    width: 100%;
+    color: whitesmoke;
+    position: relative;
+   }
+
+   .list_game li button{
+    background: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+   }
+
+   .list_game__element {
+    padding: 10px 10px;
+   }
+
+   .game_element {
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .game_element p {
+    width: 20%;
+    text-align: center;
+   }
+
+   .game_element__border{
+    height: 20px;
+    width: 5%;
+   }
+
+   .game_element__description {
+    padding-top: 10px;
+    transition: 500ms;
+   }
+
+   .display {
+    display: none;
+   }
+
+   /* ------------------------
+        CODE COLOR
+    ------------------------*/
+
+    .Switch {
+      background-color: red;
+    }
+
+    .Pc {
+      background-color: grey;
+    }
+
+    .Vr {
+      background-color: white;
+    }
+
+    .Phone {
+      background-color: yellow;
+    }
+
+    .Ps5 {
+      background-color: blue;
+    }
+
+    .Xbox {
+      background-color: green;
+    }
+

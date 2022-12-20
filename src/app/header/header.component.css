@@ -1,0 +1,40 @@
+.header_container{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header_container::after{
+    content: " ";
+    width: 100%;
+    border-bottom: 1px #b08968 solid;
+}
+
+
+.header_container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #7f5539;
+}
+
+.header_container ul {
+    display: flex;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.header_container ul li {
+    margin-left: 40px;
+    transition: 200ms;
+}
+
+.header_container ul li:hover {
+    color: #b08968;
+}
+
+
+

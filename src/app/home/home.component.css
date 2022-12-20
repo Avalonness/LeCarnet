@@ -1,0 +1,25 @@
+.home_container {
+    width: 75%;;
+    margin: auto;
+}
+
+
+.top_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.top_content img {
+    width: 75%;
+    margin: auto;
+
+}
+
+.top_content::after{
+    content: " ";
+    width: 100%;
+    border-bottom: 1px #b08968 solid;
+    padding-top: 15px;
+}
